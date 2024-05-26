@@ -21,7 +21,7 @@
             }
         }
         
-        stage('Build') {
+        stage('Package') {
             steps {
                 sh "mvn package"
             }
